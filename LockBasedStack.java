@@ -1,13 +1,4 @@
 import java.util.NoSuchElementException;
-class Node<T>{
-
-	T val;
-	Node<T> next;
-	public Node(T elem){
-		this.val=elem;
-		this.next=null;
-	}
-}
 
 public class LockBasedStack<T>{
 	Node<T> top=null;
